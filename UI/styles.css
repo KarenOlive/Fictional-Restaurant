@@ -16,12 +16,14 @@ margin-top: 300px;
 .service-icons{
     font-size: 40px;
     color: white;
-    background: orangered;
+    background-color: orange;
     border-radius: 50%;
     padding: 7px 7px 6px 13px;
+    padding: 15px;
     text-align: center;
 }
 
 .single-service p{
-    position: absolute;
+    /* position: absolute; */
+    font-size: 20px;
 }
