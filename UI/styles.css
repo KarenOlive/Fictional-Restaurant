@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* styling for the services section */
 #services{
     display: flex;
 justify-content: space-evenly;
-margin-top: 300px;
+flex-direction: row;
+flex-wrap: wrap;
+/* margin-top: 300px; */
 
 }
 
@@ -26,4 +33,73 @@ margin-top: 300px;
 .single-service p{
     /* position: absolute; */
     font-size: 20px;
+}
+
+/*Footer styling*/
+#footer{
+    /* display: grid;
+    grid-template-columns: 40% 30% 30%; */
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 25px;
+
+}
+#footer p{
+    width: min-content;
+    font-size: 20px;
+}
+#footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#footer #links{
+    display: flex;
+    flex-direction: column;
+
+}
+#footer #links a{
+    margin: 5px;
+    padding: 5px;
+}
+
+#footer a:hover{
+    color: orange;
+}
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 12px;
+    font-size: 18px;
+
+}
+
+@media screen and (max-width: 600px){
+    
+    #footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #footer p{
+        width: 100%;
+    }
+    #footer #opportunity{
+        margin-top: 20px;
+    }
+    #footer #links{
+        margin-top: 20px;
+        
+    }
+
+
+    #footer #address{
+        margin-top: 10px;
+    }
 }
