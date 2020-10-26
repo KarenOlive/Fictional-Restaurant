@@ -4,3 +4,20 @@
     box-sizing: border-box;
 }
 
+/* Scovia's styles */
+.all-drinks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.drink {
+
+}
+
+.drink img{
+    width: 300px;
+    height: 300px;
+    padding: 20px 30px;
+}
