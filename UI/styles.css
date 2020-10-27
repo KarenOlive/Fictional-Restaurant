@@ -39,7 +39,7 @@ flex-wrap: wrap;
 #footer{
     /* display: grid;
     grid-template-columns: 40% 30% 30%; */
-    background-color: antiquewhite;
+    background-color: rgb(252, 221, 182);
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
