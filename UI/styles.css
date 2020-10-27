@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* styling for the services section */
 #services{
     display: flex;
 justify-content: space-evenly;
-margin-top: 300px;
+flex-direction: row;
+flex-wrap: wrap;
+/* margin-top: 300px; */
 
 }
 
@@ -16,12 +23,160 @@ margin-top: 300px;
 .service-icons{
     font-size: 40px;
     color: white;
-    background: orangered;
+    background-color: orange;
     border-radius: 50%;
     padding: 7px 7px 6px 13px;
+    padding: 15px;
     text-align: center;
 }
 
 .single-service p{
+    /* position: absolute; */
+    font-size: 20px;
+}
+
+/*Footer styling*/
+#footer{
+    /* display: grid;
+    grid-template-columns: 40% 30% 30%; */
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 5px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 25px;
+
+}
+#footer p{
+    width: min-content;
+    font-size: 20px;
+}
+#footer a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#footer #links{
+    display: flex;
+    flex-direction: column;
+
+}
+#footer #links a{
+    margin: 5px;
+    padding: 5px;
+}
+
+#footer a:hover{
+    color: orange;
+}
+footer{
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 12px;
+    font-size: 18px;
+
+}
+
+@media screen and (max-width: 600px){
+    
+    #footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    #footer p{
+        width: 100%;
+    }
+    #footer #opportunity{
+        margin-top: 20px;
+    }
+    #footer #links{
+        margin-top: 20px;
+        
+    }
+
+
+    #footer #address{
+        margin-top: 10px;
+    }
+}
+
+/* main page for menu */
+
+.breakfast-card{
     position: absolute;
-} dxx
+    top: 20%;
+    left: 8%;
+    width: 500px;
+    height: 400px;
+    border-radius: 2%;
+}
+.breakfast-card a{
+    POSITION: ABSOLUTE;
+    TOP: 91%;
+    LEFT: 35%;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+.meal-card{
+    position: absolute;
+    top: 20%;
+    right: 8%;
+    width: 500px;
+    height: 400px;
+    border-radius: 2%;  
+}
+.meal-card a{
+    POSITION: ABSOLUTE;
+    TOP: 91%;
+    LEFT: 35%;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+.drinks-card{
+    position: absolute;
+    top: 100%;
+    left: 8%;
+    width: 500px;
+    height: 400px;
+    border-radius: 2%;
+}
+.drinks-card a{
+    POSITION: ABSOLUTE;
+    TOP: 91%;
+    LEFT: 35%;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+.dessert-card{
+    position: absolute;
+    top: 100%;
+    right: 8%;
+    width: 500px;
+    height: 400px;
+    border-radius: 2%;
+}
+.dessert-card a{
+    POSITION: ABSOLUTE;
+    TOP: 91%;
+    LEFT: 35%;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+.main-menu img{
+    position: absolute;
+    width: 500px;
+    height: 350px;
+    border-radius: 2%;
+}
+    
+
