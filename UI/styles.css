@@ -77,3 +77,51 @@ cursor: pointer;
     color: white;
     padding: 10px;
 }
+
+#nav-btn{
+    transform: translate(750px,280px);
+    color: white;
+    background-color: orange;
+    border: 1px solid orange;
+    padding: 15px;
+    font-size: 18px;
+
+}
+
+#breakfast-heading{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#wrapper{
+    margin-top:50px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#wrapper .break-item{
+    box-shadow: 1px 2px 2px #444;
+    border: 1px solid white;
+    margin: 10px;
+
+    
+}
+
+.break-item .break-image{
+    width: 250px;
+    height: 200px;
+    overflow: hidden;
+}
+.break-item p{
+    /* position: relative; */
+    position: absolute;
+    transform: translate(50px, -70px);
+    font-size: 20px;
+    background-color: antiquewhite;
+    width: min-content;
+}
