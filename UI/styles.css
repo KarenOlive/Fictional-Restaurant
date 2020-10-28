@@ -131,7 +131,7 @@ nav li a {
 
 .footer {
   height: 180px;
-  background-color: seashell;
+  background-color: rgb(190, 190, 187);
   margin: 10px auto;
   display: flex;
   flex-wrap: wrap;
@@ -155,7 +155,7 @@ nav li a {
   height: 60px;
   /* padding-bottom: 20px; */
   text-align: center;
-  background-color: rgb(250, 229, 215);
+  background-color:rgb(190, 190, 187);
 }
 @media only screen and (max-width: 650px) {
   .all-drinks {
