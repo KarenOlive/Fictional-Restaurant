@@ -4,3 +4,8 @@
     box-sizing: border-box;
 }
 
+#log{
+    width:200px;
+    height:200px;
+    opacity: 0.5; 
+}
