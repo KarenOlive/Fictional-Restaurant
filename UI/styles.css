@@ -4,3 +4,41 @@
     box-sizing: border-box;
 }
 
+
+ 
+
+   
+   .card1 {
+     background-image: url(../images/cheeseburger.jpg);
+     
+   }
+   
+   .card2 {
+     background-image: url(../images/fish\ and\ chips.jpg);
+   }
+   
+   .card3 {
+     background-image: url(../images/mac\ and\ cheese.jpg);
+   }
+   
+   .card4 {
+     background-image: url(../images/pizza.jpg);
+   }
+   .card {
+     width: 200px;
+     height: 230px;
+     display: inline-block;
+     border-radius: 10px;
+     box-sizing: border-box;
+     cursor: pointer;
+     margin: 10px 15px;
+     padding: 15px 25px;
+    
+     background-position: center;
+     background-size: cover;
+     transition: transform 0.5s;
+   }
+   .food{
+       width:20px;
+       height:20px;
+   }
